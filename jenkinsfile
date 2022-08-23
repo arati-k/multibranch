@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('try') {
             steps {
-                echo 'multiple jenkinsfile '
+                sh whoami 
             }
         }
     }
