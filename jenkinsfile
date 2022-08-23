@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('try') {
             steps {
-                sh whoami 
+                sh git --version
             }
         }
     }
